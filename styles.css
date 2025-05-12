@@ -1,0 +1,123 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Share Tech", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff; /* Title text color */
+    font-size: 3rem; /* Double the size of the original font */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+}
+
+code{
+    background-color: #f4f4f4; /* Light background for code */
+    color: #35424a; /* Dark text color */
+    padding: 5px 10px; /* Padding around code */
+    border-radius: 5px; /* Rounded corners */
+    font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+    font-size: 1.2rem; /* Slightly larger font size */
+    display: inline-block; /* Inline block for code */
+    margin: 0 5px; /* Margin around code */
+    border: 1px solid #35424a; /* Border around code */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Headings styling */
+h1, h2 {
+    color: #35424a;
+}
+
+/* Instructions box styling */
+.instructions {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz section styling */
+.quiz-section {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text */
+    gap: 20px; /* Add spacing between elements */
+}
+
+/* Button styling */
+button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Slightly larger button text */
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Ensure buttons and links styled as buttons are on a separate line */
+.start-button {
+    display: block; /* Forces the button to take up the full width of its container */
+    background: #28a745; /* Green background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Slightly larger button text */
+    text-align: center;
+    text-decoration: none; /* Remove underline for links */
+    margin: 40px auto; /* Center the button with margin */
+}
+
+.start-button:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

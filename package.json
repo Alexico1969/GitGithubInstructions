@@ -1,0 +1,26 @@
+{
+  "name": "student-git-walkthrough",
+  "version": "1.0.0",
+  "description": "A web application that guides students through the process of using Git and GitHub.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "echo 'Build script not defined'",
+    "test": "echo 'Test script not defined'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "education",
+    "webapp"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

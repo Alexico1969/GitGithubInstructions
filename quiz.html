@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Mini Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <label for="q1">1. What command is used to initialize a Git repository?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+            <div class="question">
+                <label for="q2">2. How do you add files to the staging area?</label>
+                <input type="text" id="q2" name="q2" required>
+            </div>
+            <div class="question">
+                <label for="q3">3. What is the purpose of a commit in Git?</label>
+                <input type="text" id="q3" name="q3" required>
+            </div>
+            <div class="question">
+                <label for="q4">4. What is a GitHub access token used for?</label>
+                <input type="text" id="q4" name="q4" required>
+            </div>
+            <div class="question">
+                <label for="q5">5. How do you push your local repository to GitHub?</label>
+                <input type="text" id="q5" name="q5" required>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="../src/quiz.js"></script>
+</body>
+</html>
